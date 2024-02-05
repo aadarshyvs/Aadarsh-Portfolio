@@ -1,0 +1,9 @@
+@media( prefers-colour-scheme :dark){
+  :root{
+    --clr-heading-text:#ffffff;
+    --clr-text:#EFF2F6;
+    --clr-background:#05070A;
+    --clr-primary:#ff014f;
+    --clr-gradient: linear-gradient(45deg,var(--clr-primary), #d21416);
+  }
+}
