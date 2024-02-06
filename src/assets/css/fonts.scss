@@ -3,6 +3,7 @@
 :root {
   --fs-font:"Sofia Sans Condensed", sans-serif;
   --fs-font-heading : var(--fs-font);
+  --monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   --step--1: clamp(0.9375rem, 0.9158rem + 0.1087vi, 1rem);        /* Step -1: 15px → 16px */
   --step-0: clamp(1.125rem, 1.0815rem + 0.2174vi, 1.25rem);       /* Step 0: 18px → 20px */
   --step-1: clamp(1.35rem, 1.2761rem + 0.3696vi, 1.5625rem);      /* Step 1: 21.6px → 25px */

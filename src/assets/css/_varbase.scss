@@ -1,7 +1,15 @@
 :root{
   --clr-heading-text:#3c3e41;
   --clr-text:#3c3e41;
-  --clr-background:#ecf0f3;
+  --clr-gray:#ecf0f3;
+  --clr-background:var(--clr-gray);
+  --clr-dark-gray:#e2e8ec;
   --clr-primary:#ff014f;
   --clr-gradient: linear-gradient(45deg,#3c3e41, #000000);
+  --clr-white:#ffffff;
+  --clr-black:#000000;
+
+  --gradient-box: linear-gradient(145deg, var(--clr-background), var(--clr-white));
+  --outer-shadow: 5px 5px 15px var(--clr-dark-gray), -5px -5px 15px var(--clr-white);
+  --inner-shadow: 1px 4px 2px -3px rgb(var(--clr-black, .7)) inset, -1px -3px 3px -2px rgba(var(--clr-white) 0.2) inset;
 }

@@ -1,0 +1,58 @@
+.resumeWrapper {
+  margin-block-start: 100px;
+  margin: var(--space-s-2xl);
+}
+
+.text-theme {
+  font-family: var(--monospace);
+  color: var(--clr-primary);
+  letter-spacing: 2px;
+  line-height: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.resumeTitle {
+  text-align: center;
+}
+
+.resumeSections {
+  margin-block-start: var(--space-s-2xl);
+}
+
+.resumeSections .nav {
+  --border-radius-nav: 10px;
+  border-radius: var(--border-radius-nav);
+  background: var(--gradient-box);
+  box-shadow: var(--outer-shadow);
+  justify-content: space-between;
+}
+
+.nav-item {
+  --resumeSectionCount: 4;
+  // margin-block: var(--space-s);
+  flex-basis: calc(100 / var(--resumeSectionCount) * 1%);
+  text-align: center;
+  padding: 25px 7px;
+}
+
+.nav-item > a {
+  font-family: var(--fs-heading-font);
+  color: var(--clr-text);
+  font-weight: bold;
+}
+
+.nav-item:has(.active) {
+  a {
+    color: var(--clr-primary);
+  }
+
+  border-radius: var(--border-radius-nav);
+  background: var(--gradient-box);
+  box-shadow: var(--outer-shadow);
+}
+@media screen and (width < 620px) {
+  .resumeSections .nav{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,22 @@
+<div class="resumeWrapper">
+  <div class="resumeTitle">
+    <h6 class="text-theme"> 1+ Years of Experience</h6>
+    <h2>My Resume</h2>
+  </div>
+  <div class="resumeSections">
+    <ul class="nav">
+      <li class="nav-item">
+        <a  class="nav-link" (click)="showingTab ='Education'" aria-current="page" [ngClass]="{'active': showingTab =='Education'}">Education</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" (click)="showingTab ='Skills'" [ngClass]="{'active': showingTab =='Skills'}">Professional Skills</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" (click)="showingTab ='Experience'" [ngClass]="{'active': showingTab =='Experience'}">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" (click)="showingTab ='Awards'" [ngClass]="{'active': showingTab =='Awards'}">Awards</a>
+      </li>
+    </ul>
+  </div>
+</div>

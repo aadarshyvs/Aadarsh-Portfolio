@@ -15,10 +15,13 @@ img{
   max-width: 100%;
   display: block;
 }
+body{
+  background-color: var(--clr-background);
+}
 
 
 h1{
-  color:var(--clr-primary);
+  color:var(--clr-heading-text);
 }
 h2,
 h3,
@@ -26,7 +29,7 @@ h4,
 h5,
 h6 {
   font-family: var(--ff-font-heading);
-  color:var(--clr-primary);
+  color:var(--clr-text);
   text-wrap: balance;
 }
 p{
