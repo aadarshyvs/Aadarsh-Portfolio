@@ -54,6 +54,3 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WITTY_MOSS_0095D0500 }}
           action: "close"
-
-From <https://github.com/aadarshyvs/metaflowhub-ui/actions/runs/7493913564/workflow> 
-
