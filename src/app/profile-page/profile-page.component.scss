@@ -9,7 +9,7 @@ $animateBallDistance: 15vh;
     background-color: var(--clr-primary);
     opacity: random();
     top: random(100) * 1%;
-    left: random(100%) * 1%;
+    left: random(100) * 1%;
     overflow: hidden;
     z-index: -1;
     animation: ballMove 10s linear infinite;
