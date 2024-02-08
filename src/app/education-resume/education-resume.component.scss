@@ -5,7 +5,7 @@
   margin-block-end: var(--space-xs-s);
   border-radius: 5px;
   padding: var(--space-s-l);
-
+  flex-shrink: 1;
   .detailsHeading {
     margin-block: var(--space-xs-s);
 
@@ -48,8 +48,8 @@
   }
 }
 
-.row {
-  width: 100%;
+.resumeDetailsWrapper  {
+  display: grid;
 }
 
 .cardStack {
@@ -89,5 +89,34 @@
     transform: translate(-25%, -25%);
     left: calc((var(--design-space) + var(--design-width)) * -1);
     top: var(--design-top);
+  }
+}
+.cardStack :is(.detailsCard:hover){
+  --design-top: 50%;
+}
+.detailsCard:hover{
+  background: var(--clr-gradient-primary);
+  .detailsHeading {
+    h6,h5{
+      color: var(--clr-white);
+    }
+    .detailsGrade{
+      color: var(--clr-white);
+      background-color: var(--clr-primary);
+    }
+  }
+  .detailsSummery {
+    p {
+      color: var(--clr-white);
+    }
+  }
+}
+.detailsCard:hover::after{
+  background: var(--clr-primary) !important;
+}
+
+@media  screen and (width>992px) {
+  .resumeDetailsWrapper  {
+    grid-template-columns:  1fr 1fr;
   }
 }

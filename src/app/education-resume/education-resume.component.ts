@@ -32,4 +32,24 @@ export class EducationResumeComponent {
         'I have completed my Secondory Education in Dr. K. k. R Gowtham School In which I have learnt many of the standard subjects ',
     },
   ];
+  achivementDetails=[
+    {
+      title: 'Generative AI for Software Engineers',
+      duration: 'AWS Partner Course (Aug 2023)',
+      grade: 'Team Project',
+      summary:
+      ``
+    },
+    {
+      title: 'Online Railway Reservation System',
+      duration: 'Major Project (2018)',
+      grade: 'Team Project',
+      summary:
+      `Completed case study on Online Railway Reservation System where the users can be able to register and reserve , cancel and get the tickets sent
+      to mail and be downloaded in pdf format where as admins can be able to add the trains, add the seats , update, delete and can view booking
+      history of the users and the users can able to report or view the train status.
+      created database using code first approach.
+      Deployed the application in Azure.`
+    }
+  ]
 }
