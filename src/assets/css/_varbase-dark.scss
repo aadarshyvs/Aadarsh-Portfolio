@@ -2,7 +2,9 @@
   :root{
     --clr-heading-text:#ffffff;
     --clr-text:#EFF2F6;
-    --clr-background:#212428;
+    --clr-gray:#212428;
+    --clr-dark-gray:#151618;
+    --clr-background:var(--clr-gray);
     --clr-primary:hsl(342, 100%, 50%);
     --clr-white:#000000;
     --clr-black:#ffffff;
