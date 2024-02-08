@@ -3,31 +3,31 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master  # Adjust this to match your repository's main branch
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18.13'
+          node-version: '14'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build Angular app
-        run: npm run build -- --prod --base-href="/Aadarsh-Portfolio/"
+      - name: Build Angular application
+        run: npm run build -- --prod --base-href=/Aadarsh-Portfolio/  # Adjust base href as needed
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@4.2.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/<project-name>
-          publish_branch: gh-pages
-          force_orphan: true
-          
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist/Aadarsh-Portfolio/browser # Adjust folder path to your Angular app build output
+          CLEAN: true
