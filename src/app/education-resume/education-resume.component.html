@@ -1,6 +1,8 @@
 <div class="resumeDetailsWrapper">
-  <div class="cardStack">
-    <div class="detailsCard"  *ngFor="let educationDetail of educationDetails">
+  <div class="resumedetailsrow">
+    <h3>{{educationDetails.title}}</h3>
+    <div class="cardStack">
+    <div class="detailsCard"  *ngFor="let educationDetail of educationDetails.detailsList">
       <div class="detailsHeading">
         <h5>{{educationDetail.title}}</h5>
         <h6>{{educationDetail.duration}}</h6>
@@ -16,8 +18,11 @@
       </div>
     </div>
   </div>
+  </div>
+  <div class="resumedetailsrow">
+    <h3>{{achivementDetails.title}}</h3>
   <div class="cardStack">
-    <div class="detailsCard"  *ngFor="let achivementDetail of achivementDetails">
+    <div class="detailsCard"  *ngFor="let achivementDetail of achivementDetails.detailsList">
       <div class="detailsHeading">
         <h5>{{achivementDetail.title}}</h5>
         <h6>{{achivementDetail.duration}}</h6>
@@ -33,4 +38,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>

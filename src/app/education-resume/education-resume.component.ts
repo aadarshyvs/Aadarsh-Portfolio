@@ -9,7 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './education-resume.component.scss',
 })
 export class EducationResumeComponent {
-  educationDetails = [
+  educationDetails ={
+    title:"Education Quality",
+    detailsList:
+    [
     {
       title: 'Vel Tech Institute of Science and Technology',
       duration: 'Btech (June 2018 - June 2022)',
@@ -31,14 +34,18 @@ export class EducationResumeComponent {
       summary:
         'I have completed my Secondory Education in Dr. K. k. R Gowtham School In which I have learnt many of the standard subjects ',
     },
-  ];
-  achivementDetails=[
+  ]};
+  achivementDetails={
+    title:'Projects and Certifications',
+    detailsList:[
     {
       title: 'Generative AI for Software Engineers',
       duration: 'AWS Partner Course (Aug 2023)',
-      grade: 'Team Project',
+      grade: 'Online Certification',
       summary:
-      ``
+      `Compleate a certification on Generative AI which talks about types of contents that Generative AI has
+      also contains Foundation Models and the Amazon appications which uses these like Bedrok, EC2, Code Wispher and Sage Maker Jump Start
+      `
     },
     {
       title: 'Online Railway Reservation System',
@@ -51,5 +58,5 @@ export class EducationResumeComponent {
       created database using code first approach.
       Deployed the application in Azure.`
     }
-  ]
+  ]}
 }
