@@ -1,0 +1,42 @@
+<div class="resumeDetailsWrapper">
+  <div class="resumedetailsrow">
+    <h3>{{companyDetails.title}}</h3>
+    <div class="cardStack">
+    <div class="detailsCard"  *ngFor="let educationDetail of companyDetails.detailsList">
+      <div class="detailsHeading">
+        <h5>{{educationDetail.title}}</h5>
+        <h6>{{educationDetail.duration}}</h6>
+        <div class="detailsGrade">
+          <span>{{educationDetail.grade}}</span>
+        </div>
+      </div>
+      <hr>
+      <div class="detailsSummery">
+        <p>
+          {{educationDetail.summary}}
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="resumedetailsrow">
+    <h3>{{projectDetails.title}}</h3>
+    <div class="cardStack">
+    <div class="detailsCard"  *ngFor="let educationDetail of projectDetails.detailsList">
+      <div class="detailsHeading">
+        <h5>{{educationDetail.title}}</h5>
+        <h6>{{educationDetail.duration}}</h6>
+        <div class="detailsGrade">
+          <span>{{educationDetail.grade}}</span>
+        </div>
+      </div>
+      <hr>
+      <div class="detailsSummery">
+        <p>
+          {{educationDetail.summary}}
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

@@ -18,7 +18,7 @@ export class EducationResumeComponent {
       duration: 'Btech (June 2018 - June 2022)',
       grade: '8.0/10',
       summary:
-        'I have completed my edication in Vel-Tech Univercity In which I have Learnt many of the technical skills',
+        'I have completed my education in Vel-Tech university In which I have Learnt many of the technical skills',
     },
     {
       title: 'Sri Chaitanya Junior College',
@@ -48,15 +48,16 @@ export class EducationResumeComponent {
       `
     },
     {
-      title: 'Online Railway Reservation System',
-      duration: 'Major Project (2018)',
-      grade: 'Team Project',
+      title: 'Online Clinic Management System',
+      duration: 'Minor Project (Jun 202)',
+      grade: 'Online Certification',
       summary:
-      `Completed case study on Online Railway Reservation System where the users can be able to register and reserve , cancel and get the tickets sent
-      to mail and be downloaded in pdf format where as admins can be able to add the trains, add the seats , update, delete and can view booking
-      history of the users and the users can able to report or view the train status.
-      created database using code first approach.
-      Deployed the application in Azure.`
-    }
+      `Completed case study on Online Clinic Management System where the users can be able to register and book appointment in the website,
+      Doctor can view and delete appointments also view the stock of medicines present in his Clinic,if there is less stock the request to send medicines
+      is sent to the respective suppler and the suppler will send the stock to the clinic which is automatically added to the clinic stock.
+      used the 3 Tier Architecture for building the project.
+       Used ADO.NET System for the database connectivity.
+       Got a internship certificate from Capgemini for this project`
+    },
   ]}
 }
