@@ -29,5 +29,5 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: dist/Aadarsh-Portfolio/browser # Adjust folder path to your Angular app build output
+          FOLDER: /dist/Aadarsh-Portfolio/browser # Adjust folder path to your Angular app build output
           CLEAN: true
