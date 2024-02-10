@@ -130,7 +130,7 @@
   background: var(--clr-primary) !important;
 }
 
-@media screen and (width>992px) {
+@media screen and (width>=992px) {
   .resumeDetailsWrapper {
     grid-template-columns: 1fr 1fr;
   }

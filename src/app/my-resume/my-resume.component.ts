@@ -4,13 +4,14 @@ import { CommonModule } from '@angular/common';
 import { EducationResumeComponent } from '../education-resume/education-resume.component';
 import { ExperienceResumeComponent } from "../experience-resume/experience-resume.component";
 import { AwardsResumeComponent } from "../awards-resume/awards-resume.component";
+import { SkillsResumeComponent } from '../skills-resume/skills-resume.component';
 
 @Component({
     selector: 'app-my-resume',
     standalone: true,
     templateUrl: './my-resume.component.html',
     styleUrl: './my-resume.component.scss',
-    imports: [FormsModule, ReactiveFormsModule, CommonModule, EducationResumeComponent, ExperienceResumeComponent, AwardsResumeComponent]
+    imports: [FormsModule, ReactiveFormsModule, CommonModule, EducationResumeComponent, ExperienceResumeComponent, AwardsResumeComponent,SkillsResumeComponent]
 })
 export class MyResumeComponent {
 showingTab: any = 'Education';

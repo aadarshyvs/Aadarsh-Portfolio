@@ -1,0 +1,24 @@
+<div class="resumeDetailsWrapperPercentages">
+  <div class="resumedetailsrow">
+    <h3>{{designSkillDetails.title}}</h3>
+    <div class="skillList"  [ngStyle]="{ '--precentageValue': educationDetail.Value}" *ngFor="let educationDetail of designSkillDetails.skillsList">
+      <h6>{{educationDetail.title}}</h6>
+      <span class="prcentageDiaplay">{{educationDetail.Value}}%</span>
+      <div class="progress">
+        <div class="progress-bar"  role="progressbar"
+        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+  <div class="resumedetailsrow">
+    <h3>{{developmentSkillDetails.title}}</h3>
+    <div class="skillList"  [ngStyle]="{ '--precentageValue': educationDetail.Value}" *ngFor="let educationDetail of developmentSkillDetails.skillsList">
+      <h6>{{educationDetail.title}}</h6>
+      <span class="prcentageDiaplay">{{educationDetail.Value}}%</span>
+      <div class="progress">
+        <div class="progress-bar"  role="progressbar"
+        aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+</div>
