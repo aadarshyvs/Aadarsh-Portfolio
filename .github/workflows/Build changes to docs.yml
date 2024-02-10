@@ -1,4 +1,4 @@
-name: Build to docs Folder in Master
+name: Build Master angular code
 on:
   push:
     branches:
