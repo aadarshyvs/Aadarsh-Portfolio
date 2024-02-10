@@ -50,6 +50,7 @@
       // font-family: var(--monospace);
       color: var(--clr-black);
       line-height: var(--space-s-m);
+      text-align: left;
     }
   }
 }
@@ -109,7 +110,7 @@
 
     h6,
     h5 {
-      color: var(--clr-white);
+      color: #ffff;
     }
 
     .detailsGrade {
@@ -120,7 +121,7 @@
 
   .detailsSummery {
     p {
-      color: var(--clr-white);
+      color: #ffff;
       text-align: left;
     }
   }
@@ -130,7 +131,7 @@
   background: var(--clr-primary) !important;
 }
 
-@media screen and (width>992px) {
+@media screen and (width>=992px) {
   .resumeDetailsWrapper {
     grid-template-columns: 1fr 1fr;
   }
