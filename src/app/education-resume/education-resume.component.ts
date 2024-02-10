@@ -29,7 +29,7 @@ export class EducationResumeComponent {
     },
     {
       title: 'Dr. K. k. R Gowtham School',
-      duration: 'Board of Secondory Education (Apr 2016 - Apr 2018)',
+      duration: 'Board of Secondory Education (Apr 2016)',
       grade: '8.0/10',
       summary:
         'I have completed my Secondory Education in Dr. K. k. R Gowtham School In which I have learnt many of the standard subjects ',
