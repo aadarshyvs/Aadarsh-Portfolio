@@ -24,4 +24,4 @@ jobs:
       #   run: npm run build --base-href=/Aadarsh-Portfolio/  # Adjust base href as needed
 
       - name: Build Angular application to docs folder
-        run: ng build --output-path docs --base-href /Aadarsh-Portfolio/
+        run: ng build --base-href /Aadarsh-Portfolio/
