@@ -20,16 +20,42 @@ h6{
   .prcentageDiaplay{
     color: var(--clr-text);
     position: absolute;
-    left: calc(var(--precentageValue, 0) * 1%);
+    left: 0;
     transform: translate(-50%, -100%);
+    opacity: 0;
+    animation: percentAnimate 0.5s ease-in-out 0.3s 1 normal forwards;
+
   }
   .progress-bar{
     height: 7px;
-    width:calc( var(--precentageValue,0) * 1%);
+    width:0;
     border-radius: 100vw;
-    background: linear-gradient(45deg,var(--clr-white), var(--clr-primary));;
+    background: linear-gradient(45deg,var(--clr-white), var(--clr-primary));
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-name: leftToRight;
+    animation: leftToRight 0.5s ease-in-out 0.3s 1 normal forwards;
   }
 }
+@keyframes percentAnimate {
+  0%{
+    left: 0%;
+    opacity: 0;
+  }
+  100%{
+    left: calc(var(--precentageValue, 0) * 1%);
+    opacity: 1;
+  }
+}
+@keyframes leftToRight {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:calc( var(--precentageValue,0) * 1%);
+  }
+}
+
 .resumeDetailsWrapperPercentages{
 display: grid;
 }
