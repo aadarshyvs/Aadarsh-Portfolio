@@ -25,3 +25,10 @@ jobs:
 
       - name: Build Angular application to docs folder
         run: ng build --output-path docs --base-href /Aadarsh-Portfolio/
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+
