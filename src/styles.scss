@@ -62,4 +62,11 @@ h6 {
 p{
   font-size: var(--step--1);
 }
+.icon {
+  width: 50px;
+  height: auto;
+  fill: var(--clr-icon,var(--clr-primary)) !important;
+  stroke-width: 1 !important;
+  color:  var(--clr-icon,var(--clr-primary)) !important;
+}
 

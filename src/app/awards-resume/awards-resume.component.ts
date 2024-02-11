@@ -43,9 +43,9 @@ export class AwardsResumeComponent {
         grade: 'GWR',
         summary:
         `
-        Awarded the Innovation Prize for innovating code from UI and introducing new functionalities that significantly enhance user experience.
-        Recognized for groundbreaking contributions to code innovation from the UI level, leading to the integration of cutting-edge features that elevate user satisfaction.
-        Received the Innovation Award for pioneering advancements in code development, resulting in enhanced user experience and improved functionality.
+        Achieved Guinness World Record and Asia Book of Records recognition for orchestrating the world's largest human image of a wheelchair.
+        Proud recipient of Guinness World Record and Asia Book of Records titles for leading the creation of the largest human representation of a wheelchair.
+        Recognized internationally with Guinness World Record and Asia Book of Records honors for organizing the largest human image of a wheelchair, showcasing dedication to inclusivity and awareness.
         `
       },
     {
