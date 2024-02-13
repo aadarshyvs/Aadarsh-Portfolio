@@ -2,7 +2,7 @@
 .resumeWrapper {
   margin-block-start: 100px;
   margin: var(--space-s-2xl);
-  --animation-height:30vh;
+  --animation-height:30dvh;
 }
 
 .text-theme {
@@ -16,7 +16,7 @@
 
 .resumeTitle {
   text-align: center;
-  @include rightToLeft;
+  @include leftToRight;
 }
 
 .resumeSections {
@@ -29,7 +29,7 @@
   background: var(--gradient-box);
   box-shadow: var(--outer-shadow);
   justify-content: space-between;
-  @include rightToLeft;
+  @include leftToRight;
 }
 
 .nav-item {

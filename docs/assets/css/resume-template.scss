@@ -13,7 +13,7 @@
   border-radius: 5px;
   padding: var(--space-s-l);
   flex-shrink: 1;
-  --animation-height:60vh;
+  --animation-height:60dvh;
   @include revel;
 
 
@@ -73,7 +73,6 @@
   // padding-inline-end: 0;
   margin-inline-start: calc(var(--design-space)/2);
   border-inline-start: var(--design-width) solid var(--clr-dark-gray);
-
   .detailsCard {
     position: relative;
     margin-inline-start: calc(var(--design-space)/2);

@@ -1,14 +1,15 @@
 @mixin revel(){
   animation: revel linear forwards;
   animation-timeline: view();
-  animation-range-start: cover 0vh;
+  animation-range-start: cover 0dvh;
   animation-range-end: cover var(--animation-height);
 }
-@mixin rightToLeft(){
-  animation: rightToLeft linear forwards;
+@mixin leftToRight(){
+  animation: leftToRight 1s ease-in-out forwards;
   animation-timeline: view();
-  animation-range-start: cover 0vh;
-  animation-range-end: cover var(--animation-height);
+  animation-range-start: cover 0dvh;
+  animation-range-end: cover 60%;
+  will-change: transform, opacity;
 }
 @keyframes revel {
   0%{
@@ -20,13 +21,13 @@
     opacity: 1;
   }
   }
-  @keyframes rightToLeft {
+  @keyframes leftToRight {
     0%{
-    transform: translateX(100vw);
+    transform: translateX(-50vw);
     opacity: 0;
     }
     100%{
-    transform: translateX(0%);
+    transform: translateX(0vw);
       opacity: 1;
     }
     }
