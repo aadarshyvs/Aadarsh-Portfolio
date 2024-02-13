@@ -29,6 +29,7 @@
   background: var(--gradient-box);
   box-shadow: var(--outer-shadow);
   justify-content: space-between;
+  --animation-height:30dvh;
   @include leftToRight;
 }
 

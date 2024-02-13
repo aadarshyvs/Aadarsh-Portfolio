@@ -8,7 +8,7 @@
   animation: leftToRight 1s ease-in-out forwards;
   animation-timeline: view();
   animation-range-start: cover 0dvh;
-  animation-range-end: cover 60%;
+  animation-range-end: cover var(--animation-height);
   will-change: transform, opacity;
 }
 @keyframes revel {
