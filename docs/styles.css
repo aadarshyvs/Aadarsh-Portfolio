@@ -72,6 +72,26 @@
   --space-s-2xl: clamp(1.125rem, 0.6467rem + 2.8261vi, 5rem);
 }
 
+@keyframes revel {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
 *,
 *::after,
 *::before {
