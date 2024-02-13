@@ -1,12 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MatIconModule } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-my-highlights',
   standalone: true,
-  imports: [CommonModule,MatIconModule],
+  imports: [CommonModule],
   templateUrl: './my-highlights.component.html',
   styleUrl: './my-highlights.component.scss'
 })
