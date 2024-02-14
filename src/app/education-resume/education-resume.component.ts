@@ -16,23 +16,23 @@ export class EducationResumeComponent {
     {
       title: 'Vel Tech Institute of Science and Technology',
       duration: 'Btech (June 2018 - June 2022)',
-      grade: '8.0/10',
+      grade: '8.2/10',
       summary:
-        'I have completed my education in Vel-Tech university In which I have Learnt many of the technical skills',
+        'I have successfully completed my under graduation at Vel-Tech University, acquiring valuable technical skills along the way.',
     },
     {
       title: 'Sri Chaitanya Junior College',
       duration: 'Board of Intermediate Education (Apr 2016 - Apr 2018)',
-      grade: '8.0/10',
+      grade: '7.5/10',
       summary:
-        'I have completed my Intermediate in Sri Chaitanya Junior College In which I have Specialised in Maths, Physics and Chemistry',
+        `Completed Intermediate with specialization in Mathematics, Physics, and Chemistry at Sri Chaitanya Junior College, focusing on in-depth study and understanding of these subjects.`,
     },
     {
       title: 'Dr. K. k. R Gowtham School',
-      duration: 'Board of Secondory Education (Apr 2016)',
+      duration: 'Board of Secondary Education (Apr 2016)',
       grade: '8.0/10',
       summary:
-        'I have completed my Secondory Education in Dr. K. k. R Gowtham School In which I have learnt many of the standard subjects ',
+        'Completed Secondary Education at Dr. K. K. R Gowtham School, studying a variety of subjects essential for overall academic development.',
     },
   ]};
   achivementDetails={

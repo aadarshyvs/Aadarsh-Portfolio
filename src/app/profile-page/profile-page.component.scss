@@ -51,6 +51,7 @@ $animateBallDistance: 15vh;
   display: grid;
   place-items: center;
   position: relative;
+
 }
 .imgBorder {
   border-radius: 50%;
@@ -68,6 +69,7 @@ $animateBallDistance: 15vh;
   width: var(--imgWidth);
   border-radius: 50%;
   animation: none;
+  aspect-ratio: 1;
 }
 .profileImgWrapper h1 {
   font-weight: bold;
