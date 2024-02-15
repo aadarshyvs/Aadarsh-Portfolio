@@ -1,5 +1,5 @@
 $animateBallCount: 10;
-$animateBallDistance: 15vh;
+$animateBallDistance: 15dvh;
 @for $i from 1 through $animateBallCount {
   .animationBalls :nth-child(#{$i}) {
     position: absolute;
@@ -31,7 +31,7 @@ $animateBallDistance: 15vh;
 }
 .profileWrapper {
   width: 100%;
-  height: 90vh;
+  height: 90dvh;
   max-height: 900px; //test
   border-bottom: 1px solid var(--clr-text);
   overflow: hidden;

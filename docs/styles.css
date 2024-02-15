@@ -84,11 +84,11 @@
 }
 @keyframes leftToRight {
   0% {
-    transform: translateX(-50vw);
+    transform: translateX(-50dvw);
     opacity: 0;
   }
   100% {
-    transform: translateX(0vw);
+    transform: translateX(0dvw);
     opacity: 1;
   }
 }
