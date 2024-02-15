@@ -67,6 +67,7 @@ $animateBallDistance: 15dvh;
 .imgBackground img {
   position: absolute;
   width: var(--imgWidth);
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   animation: none;
   aspect-ratio: 1;
