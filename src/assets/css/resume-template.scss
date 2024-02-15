@@ -1,4 +1,19 @@
 @import '../css/animations.scss';
+.cardStack {
+  --design-width: 5px;
+  --design-top: 20%;
+  --design-space: var(--space-s-2xl);
+  margin-block-start: var(--space-s-m);
+  padding-inline-start: calc(var(--design-space)/2);
+  // padding-inline-end: 0;
+  margin-inline-start: calc(var(--design-space)/2);
+  border-inline-start: var(--design-width) solid var(--clr-dark-gray);
+  .detailsCard {
+    position: relative;
+    margin-inline-start: calc(var(--design-space)/2);
+    --animation-height:40dvh;
+    margin-inline-end:var(--animation-height) ;
+  }
 .resumedetailsrow h3 {
   text-align: center;
   padding-block: var(--space-s-m);
@@ -13,7 +28,6 @@
   border-radius: 5px;
   padding: var(--space-s-l);
   flex-shrink: 1;
-  --animation-height:50dvh;
   @include revel;
 
 
@@ -64,20 +78,6 @@
   display: grid;
 }
 
-.cardStack {
-  --design-width: 5px;
-  --design-top: 20%;
-  --design-space: var(--space-s-2xl);
-  margin-block-start: var(--space-s-m);
-  padding-inline-start: calc(var(--design-space)/2);
-  // padding-inline-end: 0;
-  margin-inline-start: calc(var(--design-space)/2);
-  border-inline-start: var(--design-width) solid var(--clr-dark-gray);
-  .detailsCard {
-    position: relative;
-    margin-inline-start: calc(var(--design-space)/2);
-
-  }
 
   .detailsCard::before {
     position: absolute;
