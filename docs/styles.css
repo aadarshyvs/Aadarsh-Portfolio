@@ -114,6 +114,7 @@ img {
 
 body {
   background-color: var(--clr-background);
+  padding-block-end: var(--space-3xl);
 }
 
 h1 {
