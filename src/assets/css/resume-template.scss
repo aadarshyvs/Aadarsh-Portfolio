@@ -1,10 +1,55 @@
 @import '../css/animations.scss';
+.cardStack {
+  --design-width: 5px;
+  --design-top: 20%;
+  --design-space: var(--space-s-2xl);
+  margin-block-start: var(--space-s-m);
+  padding-inline-start: calc(var(--design-space)/2);
+  // padding-inline-end: 0;
+  margin-inline-start: calc(var(--design-space)/2);
+  border-inline-start: var(--design-width) solid var(--clr-dark-gray);
+  .detailsCard {
+    position: relative;
+    margin-inline-start: calc(var(--design-space)/2);
+
+  }
+
+  .detailsCard::before {
+    position: absolute;
+    content: "";
+    height: var(--design-width);
+    width: var(--design-space);
+    background: var(--clr-dark-gray);
+    left: calc(var(--design-space)*-1);
+    top: var(--design-top);
+  }
+
+  .detailsCard::after {
+    position: absolute;
+    content: "";
+    width: calc(var(--design-width) *2);
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background: var(--clr-background);
+    box-shadow: 0px 0px 0px var(--design-width) var(--clr-dark-gray);
+    transform: translate(-25%, -25%);
+    left: calc((var(--design-space) + var(--design-width)) * -1);
+    top: var(--design-top);
+  }
+}
+
+.cardStack :is(.detailsCard:hover) {
+  --design-top: 50%;
+}
 .resumedetailsrow h3 {
   text-align: center;
   padding-block: var(--space-s-m);
   @include revel;
 }
-
+.cardStack{
+  --animation-height:30dvh;
+  margin-block-end: var(--animation-height);
+}
 .detailsCard {
   background: var(--gradient-box);
   box-shadow: var(--outer-shadow);
@@ -13,7 +58,6 @@
   border-radius: 5px;
   padding: var(--space-s-l);
   flex-shrink: 1;
-  --animation-height:50dvh;
   @include revel;
 
 
@@ -64,48 +108,6 @@
   display: grid;
 }
 
-.cardStack {
-  --design-width: 5px;
-  --design-top: 20%;
-  --design-space: var(--space-s-2xl);
-  margin-block-start: var(--space-s-m);
-  padding-inline-start: calc(var(--design-space)/2);
-  // padding-inline-end: 0;
-  margin-inline-start: calc(var(--design-space)/2);
-  border-inline-start: var(--design-width) solid var(--clr-dark-gray);
-  .detailsCard {
-    position: relative;
-    margin-inline-start: calc(var(--design-space)/2);
-
-  }
-
-  .detailsCard::before {
-    position: absolute;
-    content: "";
-    height: var(--design-width);
-    width: var(--design-space);
-    background: var(--clr-dark-gray);
-    left: calc(var(--design-space)*-1);
-    top: var(--design-top);
-  }
-
-  .detailsCard::after {
-    position: absolute;
-    content: "";
-    width: calc(var(--design-width) *2);
-    aspect-ratio: 1;
-    border-radius: 100%;
-    background: var(--clr-background);
-    box-shadow: 0px 0px 0px var(--design-width) var(--clr-dark-gray);
-    transform: translate(-25%, -25%);
-    left: calc((var(--design-space) + var(--design-width)) * -1);
-    top: var(--design-top);
-  }
-}
-
-.cardStack :is(.detailsCard:hover) {
-  --design-top: 50%;
-}
 
 .detailsCard:hover {
   background: var(--clr-gradient-primary);
