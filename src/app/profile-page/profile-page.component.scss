@@ -1,4 +1,4 @@
-$animateBallCount: 10;
+$animateBallCount: 30;
 $animateBallDistance: 15dvh;
 @for $i from 1 through $animateBallCount {
   .animationBalls :nth-child(#{$i}) {
