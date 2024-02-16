@@ -15,20 +15,16 @@ export class ExperienceResumeComponent {
       {
         title: 'Video Metadata & Content Processing, Validation and Publishing Platform',
         duration: '1 yr',
-        grade: 'Banglore',
+        grade: 'Bangalore',
         summary:
-          `Worked as a UI Angular developer for this project and Implemented MSAL Security using Keycloak, Server-side Data Grids using Ag-Grid, Workflow demonstraction in UI, Comparison of two XMLs and showing differences
+          `Worked as a UI Angular developer for this project and implemented MSAL Security using Keycloak, server-side data grids using Ag-Grid, workflow demonstration in UI, and comparison of two XMLs, showing differences.
           `,
       },
       {
         title: 'Online Railway Reservation System',
         duration: '4 mos',
         grade: 'Virtual',
-        summary: `Completed case study on Online Clinic Management System where the users can be able to register and book appointment in the website,
-        Doctor can view and delete appointments also view the stock of medicines present in his Clinic,if there is less stock the request to send medicines
-        is sent to the respective suppler and the suppler will send the stock to the clinic which is automatically added to the clinic stock.
-        This project is buid with an 3 Tier Architecture and  ADO.NET System for the database connectivity
-                  `,
+        summary: `I have successfully designed and implemented an Online Railway Reservation System, facilitating user registration, ticket reservation, cancellation, and PDF ticket generation. Additionally, I incorporated admin functionalities for managing trains, seats, and booking history, ensuring a comprehensive platform for both users and administrators. Utilizing a code-first approach, I created the database and deployed the application on Azure, demonstrating proficiency in Ms SQL Server, Visual Studio, .NET Framework, and API concepts for seamless system development and deployment.`,
       },
     ],
   };
@@ -37,8 +33,8 @@ export class ExperienceResumeComponent {
     detailsList: [
       {
         title: 'Capgemini Full Time',
-        duration: '1 yr 6 mos',
-        grade: 'Banglore',
+        duration: '1+ yrs',
+        grade: 'Bangalore',
         summary:
           'Demonstrated proficiency in coding, debugging, and collaborating within a team environment during 18 months of employment as a software developer in Capgemini',
       },

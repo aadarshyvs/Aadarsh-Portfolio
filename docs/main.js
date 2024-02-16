@@ -191,7 +191,7 @@ class AwardsResumeComponent {
         duration: 'Jul 2020',
         grade: 'NSS',
         summary: `Recognized for active participation in an online quiz competition focusing on the life of Gandhi, organized by NSS units of TKM College of Engineering.
-      Engaged in commemorating Mahatma Gandhi's 150th Birth Anniversary by participating in an online quiz competition facilitated by the NSS cell of APJ Abdul Kalam Technological University.
+      Engaged in pay tribute to Mahatma Gandhi's 150th Birth Anniversary by participating in an online quiz competition facilitated by the NSS cell of APJ Abdul Kalam Technological University.
       Contributed to celebrating Mahatma Gandhi's legacy by receiving recognition for participation in an online quiz competition organized by NSS units, highlighting his life and teachings.
       `
       }]
@@ -318,17 +318,17 @@ class EducationResumeComponent {
       title: "Education Quality",
       detailsList: [{
         title: 'Vel Tech Institute of Science and Technology',
-        duration: 'Btech (June 2018 - June 2022)',
+        duration: 'Btech (2018 - 2022)',
         grade: '8.2/10',
         summary: 'I have successfully completed my under graduation at Vel-Tech University, acquiring valuable technical skills along the way.'
       }, {
         title: 'Sri Chaitanya Junior College',
-        duration: 'Board of Intermediate Education (Apr 2016 - Apr 2018)',
+        duration: 'Board of Intermediate Education (2016 - 2018)',
         grade: '7.5/10',
         summary: `Completed Intermediate with specialization in Mathematics, Physics, and Chemistry at Sri Chaitanya Junior College, focusing on in-depth study and understanding of these subjects.`
       }, {
         title: 'Dr. K. k. R Gowtham School',
-        duration: 'Board of Secondary Education (Apr 2016)',
+        duration: 'Board of Secondary Education (2016)',
         grade: '8.0/10',
         summary: 'Completed Secondary Education at Dr. K. K. R Gowtham School, studying a variety of subjects essential for overall academic development.'
       }]
@@ -339,12 +339,11 @@ class EducationResumeComponent {
         title: 'Generative AI for Software Engineers',
         duration: 'AWS Partner Course (Aug 2023)',
         grade: 'Online Certification',
-        summary: `Compleate a certification on Generative AI which talks about types of contents that Generative AI has
-      also contains Foundation Models and the Amazon appications which uses these like Bedrok, EC2, Code Wispher and Sage Maker Jump Start
+        summary: `Completed a certification on Generative AI, which talks about the types of content that Generative AI generates. It also covers Foundation Models and Amazon applications that use these, such as Bedrock, EC2, Code Whisper, and SageMaker Jump Start.
       `
       }, {
         title: 'Online Clinic Management System',
-        duration: 'Minor Project (Jun 202)',
+        duration: 'Minor Project (Jun 2022)',
         grade: 'Online Certification',
         summary: `Completed case study on Online Clinic Management System where the users can be able to register and book appointment in the website,
       Doctor can view and delete appointments also view the stock of medicines present in his Clinic,if there is less stock the request to send medicines
@@ -477,26 +476,22 @@ class ExperienceResumeComponent {
       detailsList: [{
         title: 'Video Metadata & Content Processing, Validation and Publishing Platform',
         duration: '1 yr',
-        grade: 'Banglore',
-        summary: `Worked as a UI Angular developer for this project and Implemented MSAL Security using Keycloak, Server-side Data Grids using Ag-Grid, Workflow demonstraction in UI, Comparison of two XMLs and showing differences
+        grade: 'Bangalore',
+        summary: `Worked as a UI Angular developer for this project and implemented MSAL Security using Keycloak, server-side data grids using Ag-Grid, workflow demonstration in UI, and comparison of two XMLs, showing differences.
           `
       }, {
         title: 'Online Railway Reservation System',
         duration: '4 mos',
         grade: 'Virtual',
-        summary: `Completed case study on Online Clinic Management System where the users can be able to register and book appointment in the website,
-        Doctor can view and delete appointments also view the stock of medicines present in his Clinic,if there is less stock the request to send medicines
-        is sent to the respective suppler and the suppler will send the stock to the clinic which is automatically added to the clinic stock.
-        This project is buid with an 3 Tier Architecture and  ADO.NET System for the database connectivity
-                  `
+        summary: `I have successfully designed and implemented an Online Railway Reservation System, facilitating user registration, ticket reservation, cancellation, and PDF ticket generation. Additionally, I incorporated admin functionalities for managing trains, seats, and booking history, ensuring a comprehensive platform for both users and administrators. Utilizing a code-first approach, I created the database and deployed the application on Azure, demonstrating proficiency in Ms SQL Server, Visual Studio, .NET Framework, and API concepts for seamless system development and deployment.`
       }]
     };
     this.companyDetails = {
       title: 'Company Details',
       detailsList: [{
         title: 'Capgemini Full Time',
-        duration: '1 yr 6 mos',
-        grade: 'Banglore',
+        duration: '1+ yrs',
+        grade: 'Bangalore',
         summary: 'Demonstrated proficiency in coding, debugging, and collaborating within a team environment during 18 months of employment as a software developer in Capgemini'
       }, {
         title: 'Capgemini Internship',

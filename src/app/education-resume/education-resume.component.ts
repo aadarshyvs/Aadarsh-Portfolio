@@ -15,21 +15,21 @@ export class EducationResumeComponent {
     [
     {
       title: 'Vel Tech Institute of Science and Technology',
-      duration: 'Btech (June 2018 - June 2022)',
+      duration: 'Btech (2018 - 2022)',
       grade: '8.2/10',
       summary:
         'I have successfully completed my under graduation at Vel-Tech University, acquiring valuable technical skills along the way.',
     },
     {
       title: 'Sri Chaitanya Junior College',
-      duration: 'Board of Intermediate Education (Apr 2016 - Apr 2018)',
+      duration: 'Board of Intermediate Education (2016 - 2018)',
       grade: '7.5/10',
       summary:
         `Completed Intermediate with specialization in Mathematics, Physics, and Chemistry at Sri Chaitanya Junior College, focusing on in-depth study and understanding of these subjects.`,
     },
     {
       title: 'Dr. K. k. R Gowtham School',
-      duration: 'Board of Secondary Education (Apr 2016)',
+      duration: 'Board of Secondary Education (2016)',
       grade: '8.0/10',
       summary:
         'Completed Secondary Education at Dr. K. K. R Gowtham School, studying a variety of subjects essential for overall academic development.',
@@ -43,13 +43,12 @@ export class EducationResumeComponent {
       duration: 'AWS Partner Course (Aug 2023)',
       grade: 'Online Certification',
       summary:
-      `Compleate a certification on Generative AI which talks about types of contents that Generative AI has
-      also contains Foundation Models and the Amazon appications which uses these like Bedrok, EC2, Code Wispher and Sage Maker Jump Start
+      `Completed a certification on Generative AI, which talks about the types of content that Generative AI generates. It also covers Foundation Models and Amazon applications that use these, such as Bedrock, EC2, Code Whisper, and SageMaker Jump Start.
       `
     },
     {
       title: 'Online Clinic Management System',
-      duration: 'Minor Project (Jun 202)',
+      duration: 'Minor Project (Jun 2022)',
       grade: 'Online Certification',
       summary:
       `Completed case study on Online Clinic Management System where the users can be able to register and book appointment in the website,
