@@ -25,7 +25,7 @@ export class EducationResumeComponent {
       duration: 'Board of Intermediate Education (2016 - 2018)',
       grade: '7.5/10',
       summary:
-        `Completed Intermediate with specialization in Mathematics, Physics, and Chemistry at Sri Chaitanya Junior College, focusing on in-depth study and understanding of these subjects.`,
+        `Completed Intermediate with specialization in Mathematics, Physics and Chemistry at Sri Chaitanya Junior College, focusing on in-depth study and understanding of these subjects.`,
     },
     {
       title: 'Dr. K. k. R Gowtham School',

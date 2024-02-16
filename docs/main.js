@@ -325,7 +325,7 @@ class EducationResumeComponent {
         title: 'Sri Chaitanya Junior College',
         duration: 'Board of Intermediate Education (2016 - 2018)',
         grade: '7.5/10',
-        summary: `Completed Intermediate with specialization in Mathematics, Physics, and Chemistry at Sri Chaitanya Junior College, focusing on in-depth study and understanding of these subjects.`
+        summary: `Completed Intermediate with specialization in Mathematics, Physics and Chemistry at Sri Chaitanya Junior College, focusing on in-depth study and understanding of these subjects.`
       }, {
         title: 'Dr. K. k. R Gowtham School',
         duration: 'Board of Secondary Education (2016)',
@@ -477,13 +477,13 @@ class ExperienceResumeComponent {
         title: 'Video Metadata & Content Processing, Validation and Publishing Platform',
         duration: '1 yr',
         grade: 'Bangalore',
-        summary: `Worked as a UI Angular developer for this project and implemented MSAL Security using Keycloak, server-side data grids using Ag-Grid, workflow demonstration in UI, and comparison of two XMLs, showing differences.
+        summary: `Worked as a UI Angular developer for this project and implemented MSAL Security using Keycloak, server-side data grids using Ag-Grid, workflow demonstration in UI and comparison of two XMLs, showing differences.
           `
       }, {
         title: 'Online Railway Reservation System',
         duration: '4 mos',
         grade: 'Virtual',
-        summary: `I have successfully designed and implemented an Online Railway Reservation System, facilitating user registration, ticket reservation, cancellation, and PDF ticket generation. Additionally, I incorporated admin functionalities for managing trains, seats, and booking history, ensuring a comprehensive platform for both users and administrators. Utilizing a code-first approach, I created the database and deployed the application on Azure, demonstrating proficiency in Ms SQL Server, Visual Studio, .NET Framework, and API concepts for seamless system development and deployment.`
+        summary: `I have successfully designed and implemented an Online Railway Reservation System, facilitating user registration, ticket reservation, cancellation and PDF ticket generation. Additionally, I incorporated admin functionalities for managing trains, seats and booking history, ensuring a comprehensive platform for both users and administrators. Utilizing a code-first approach, I created the database and deployed the application on Azure, demonstrating proficiency in Ms SQL Server, Visual Studio, .NET Framework, and API concepts for seamless system development and deployment.`
       }]
     };
     this.companyDetails = {
@@ -492,13 +492,13 @@ class ExperienceResumeComponent {
         title: 'Capgemini Full Time',
         duration: '1+ yrs',
         grade: 'Bangalore',
-        summary: 'Demonstrated proficiency in coding, debugging, and collaborating within a team environment during 18 months of employment as a software developer in Capgemini'
+        summary: 'Demonstrated proficiency in coding, debugging and collaborating within a team environment during 18 months of employment as a software developer in Capgemini'
       }, {
         title: 'Capgemini Internship',
         duration: '4 mos',
         grade: 'Virtual',
         summary: `Served as an intern at a reputable company, actively learning and contributing to software development projects.
-        Gained valuable practical insights in database management, web development, and API integration throughout the internship duration.
+        Gained valuable practical insights in database management, web development and API integration throughout the internship duration.
       `
       }]
     };
@@ -603,7 +603,7 @@ class MyHighlightsComponent {
     }, {
       icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>`,
       title: 'Tech Specialist',
-      content: `Experienced HTML, CSS, and Angular developer proficient with advanced tools like ag-Grid and Bootstrap Material Components library. Specialized in crafting user-friendly web applications for seamless user experience.
+      content: `Experienced HTML, CSS and Angular developer proficient with advanced tools like ag-Grid, Bootstrap and Material Components library. Specialized in crafting user-friendly web applications for seamless user experience.
       `
     }, {
       icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M4.1 38.2C1.4 34.2 0 29.4 0 24.6C0 11 11 0 24.6 0H133.9c11.2 0 21.7 5.9 27.4 15.5l68.5 114.1c-48.2 6.1-91.3 28.6-123.4 61.9L4.1 38.2zm503.7 0L405.6 191.5c-32.1-33.3-75.2-55.8-123.4-61.9L350.7 15.5C356.5 5.9 366.9 0 378.1 0H487.4C501 0 512 11 512 24.6c0 4.8-1.4 9.6-4.1 13.6zM80 336a176 176 0 1 1 352 0A176 176 0 1 1 80 336zm184.4-94.9c-3.4-7-13.3-7-16.8 0l-22.4 45.4c-1.4 2.8-4 4.7-7 5.1L168 298.9c-7.7 1.1-10.7 10.5-5.2 16l36.3 35.4c2.2 2.2 3.2 5.2 2.7 8.3l-8.6 49.9c-1.3 7.6 6.7 13.5 13.6 9.9l44.8-23.6c2.7-1.4 6-1.4 8.7 0l44.8 23.6c6.9 3.6 14.9-2.2 13.6-9.9l-8.6-49.9c-.5-3 .5-6.1 2.7-8.3l36.3-35.4c5.6-5.4 2.5-14.8-5.2-16l-50.1-7.3c-3-.4-5.7-2.4-7-5.1l-22.4-45.4z"/></svg>',
