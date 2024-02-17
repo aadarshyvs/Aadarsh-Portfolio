@@ -114,6 +114,8 @@ img {
 
 body {
   background-color: var(--clr-background);
+  -webkit-user-select: none;
+          user-select: none;
 }
 
 h1 {
