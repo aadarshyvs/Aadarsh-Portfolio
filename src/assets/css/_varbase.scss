@@ -1,11 +1,12 @@
 :root{
+  // --hue:550 add hue to change color
   --clr-heading-text:#3c3e41;
   --clr-text:#3c3e41;
   --clr-gray:#ecf0f3;
   --clr-background:var(--clr-gray);
   --clr-dark-gray:#d9dee2;
-  --clr-primary:#ff014f;
-  --clr-primary-dark:#d11414;
+  --clr-primary:hsl(var( --hue,345), 100%, 50%);
+  --clr-primary-dark:hsl(var( --hue,0), 83%, 45%);
   --clr-gradient: linear-gradient(45deg,var(--clr-heading-text), var(--clr-black));
   --clr-gradient-primary: linear-gradient(145deg, var(--clr-primary), var(--clr-primary-dark));
   --clr-white:#ffffff;
