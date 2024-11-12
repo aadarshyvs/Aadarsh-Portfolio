@@ -1,0 +1,55 @@
+name: Angular CI Build
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - feature/**
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    name: Build Angular Project
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # Step 4: Lint the code (Optional but recommended)
+      - name: Lint Angular project
+        run: npm run lint
+
+      # Step 5: Run tests (Optional but recommended)
+      - name: Run tests
+        run: npm test
+
+      # Step 6: Build the Angular project
+      - name: Build Angular project
+        run: npm run build
+
+      # Step 7: Upload build artifacts (Optional)
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist/**
