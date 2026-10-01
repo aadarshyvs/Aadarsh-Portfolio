@@ -1,66 +1,27 @@
-@import "../../assets/css/resume-template.scss";
-@import '../../assets/css/animations.scss';
-.skillList{
-  margin:var(--space-m-l);
-  position: relative;
-  h6,.prcentageDiaplay{
-    font-weight: 500;
-    text-transform: uppercase;
-  letter-spacing: 2px;
-}
-h6{
-  padding-block-end: var(--space-s-m);
-}
-  .progress{
-    height: 10px;
-    border-radius: 100dvw;
-    align-items: center;
-    background: var(--clr-dark-gray);
-  }
-  .prcentageDiaplay{
-    color: var(--clr-text);
-    position: absolute;
-    left: 0;
-    transform: translate(-50%, -100%);
-    opacity: 0;
-    animation: percentAnimate 0.5s ease-in-out 0.3s 1 normal forwards;
 
-  }
-  .progress-bar{
-    height: 7px;
-    width:0;
-    border-radius: 100dvw;
-    background: linear-gradient(45deg,var(--clr-white), var(--clr-primary));
-    animation-duration: 0.5s;
-    animation-delay: 0.3s;
-    animation-name: leftToRight;
-    animation: leftToRight 0.5s ease-in-out 0.3s 1 normal forwards;
-  }
+.resumeDetailsWrapperPercentages {
+  display: grid;
+  gap: 24px;
+  padding-block: 24px;
 }
-@keyframes percentAnimate {
-  0%{
-    left: 0%;
-    opacity: 0;
-  }
-  100%{
-    left: calc(var(--precentageValue, 0) * 1%);
-    opacity: 1;
-  }
+.resumedetailsrow {
+  min-width: 0;
+  padding: clamp(20px, 3vw, 32px);
+  border: 1px solid var(--clr-dark-gray);
+  border-radius: 16px;
+  background: var(--gradient-box);
+  box-shadow: var(--outer-shadow);
+  h3 { font-size: clamp(1.3rem, 2vw, 1.75rem); line-height: 1.35; margin-bottom: 20px; }
 }
-@keyframes leftToRight {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:calc( var(--precentageValue,0) * 1%);
-  }
+.skillList {
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  border-left: 3px solid var(--clr-primary);
+  border-radius: 0 8px 8px 0;
+  background: var(--clr-background);
+  h6 { margin: 0; font-size: 1rem; font-weight: 500; line-height: 1.6; overflow-wrap: anywhere; }
+  &:last-child { margin-bottom: 0; }
 }
-
-.resumeDetailsWrapperPercentages{
-display: grid;
-}
-@media screen and (width>=768px) {
-  .resumeDetailsWrapperPercentages {
-    grid-template-columns: 1fr 1fr;
-  }
+@media (min-width: 768px) {
+  .resumeDetailsWrapperPercentages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

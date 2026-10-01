@@ -1,1 +1,15 @@
-@import "../../assets/css/resume-template.scss"
+@import "../../assets/css/resume-template.scss";
+.resumeDetailsWrapper { gap: 24px; padding-block: 24px; }
+.resumedetailsrow { min-width: 0; }
+.resumedetailsrow h3 { font-size: clamp(1.4rem, 2vw, 1.9rem); line-height: 1.4; }
+.cardStack { --design-space: 24px; --design-width: 3px; }
+.detailsCard {
+  border-radius: 16px;
+  padding: clamp(20px, 2.5vw, 32px);
+  margin-bottom: 24px;
+  .detailsHeading h5 { font-size: clamp(1.2rem, 1.8vw, 1.5rem); line-height: 1.4; overflow-wrap: anywhere; }
+  .detailsHeading h6 { font-size: .95rem; letter-spacing: 0; line-height: 1.5; margin-block: 10px; }
+  .detailsHeading .detailsGrade { font-size: .85rem; line-height: 1.5; padding: 6px 10px; }
+  .detailsSummery p { font-size: 1rem; line-height: 1.8; margin-bottom: 0; }
+}
+@media (max-width: 480px) { .cardStack { --design-space: 16px; } }
