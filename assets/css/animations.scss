@@ -1,0 +1,34 @@
+@mixin revel(){
+  animation: revel linear forwards;
+  animation-timeline: view();
+  animation-range-start: cover 0dvh;
+  animation-range-end: cover var(--animation-height);
+}
+@mixin leftToRight(){
+  animation: leftToRight 1s ease-in-out forwards;
+  animation-timeline: view();
+  animation-range-start: cover 0dvh;
+  animation-range-end: cover var(--animation-height);
+  will-change: transform, opacity;
+}
+@keyframes revel {
+  0%{
+  transform: translateY(100%);
+  opacity: 0;
+  }
+  100%{
+  transform: translateY(0%);
+    opacity: 1;
+  }
+  }
+  @keyframes leftToRight {
+    0%{
+    transform: translateX(-50dvw);
+    opacity: 0;
+    }
+    100%{
+    transform: translateX(0dvw);
+      opacity: 1;
+    }
+    }
+
