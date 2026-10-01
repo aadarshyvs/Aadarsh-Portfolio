@@ -19,15 +19,15 @@ jobs:
           node-version: '18.13'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build Angular application
-        run: npm run build --base-href=/Aadarsh-Portfolio/  # Adjust base href as needed
+        run: npm run build -- --base-href=/Aadarsh-Portfolio/  # Adjust base href as needed
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.2.0
         with:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: /dist/Aadarsh-Portfolio/browser # Adjust folder path to your Angular app build output
+          FOLDER: docs # Adjust folder path to your Angular app build output
           CLEAN: true
