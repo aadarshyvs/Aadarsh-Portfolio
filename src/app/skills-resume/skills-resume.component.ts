@@ -10,53 +10,52 @@ import { Component } from '@angular/core';
 })
 export class SkillsResumeComponent {
   designSkillDetails = {
-    title: 'Plugin Skill',
-    skillsList: [
-      {
-        title:'Figma',
-        Value:70
-      },
-      {
-        title:'Photoshop',
-        Value:90
-      },
-      {
-        title:'Bootstrap',
-        Value:100
-      },
-      {
-        title:'Ag-Grid',
-        Value:85
-      },
-      {
-        title:'Keycloak',
-        Value:85
-      }
-    ],
-  };
+    "title": "Tools, Testing & Delivery",
+    "skillsList": [
+        {
+            "title": "Ag-Grid Community, Bootstrap"
+        },
+        {
+            "title": "Keycloak, MSAL, REST APIs"
+        },
+        {
+            "title": "Jasmine, Karma"
+        },
+        {
+            "title": "Git, Jenkins, Jira, SQL"
+        },
+        {
+            "title": "Webpack / build optimization"
+        },
+        {
+            "title": "Figma, Photoshop"
+        },
+        {
+            "title": "Claude, GPT, Windsurf, Codeium"
+        }
+    ]
+};
   developmentSkillDetails = {
-    title: 'Development Skill',
-    skillsList: [
-      {
-        title:'Html',
-        Value:95
-      },
-      {
-        title:'CSS',
-        Value:90
-      },
-      {
-        title:'Angular',
-        Value:85
-      },
-      {
-        title:'Typescript',
-        Value:85
-      },
-      {
-        title:'Javascript',
-        Value:85
-      }
-    ],
-  };
+    "title": "Frontend & Supporting Technologies",
+    "skillsList": [
+        {
+            "title": "Angular, Standalone Components, Signals"
+        },
+        {
+            "title": "TypeScript, JavaScript, RxJS"
+        },
+        {
+            "title": "HTML, CSS (Flexbox, Grid)"
+        },
+        {
+            "title": "Elasticsearch APIs, JSON, HTTP Client"
+        },
+        {
+            "title": "Java / Spring (supporting backend tasks)"
+        },
+        {
+            "title": "BPMN workflows, Drools rule configuration"
+        }
+    ]
+};
 }

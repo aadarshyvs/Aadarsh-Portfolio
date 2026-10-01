@@ -122,3 +122,9 @@ $animateBallDistance: 15dvh;
     transform: rotate(360deg)
   }
 }
+
+.profileImgWrapper { max-width: 720px; padding: 20px; }
+.profession { flex-wrap: wrap; font-size: clamp(1.15rem, 3vw, 1.75rem); }
+.profileSummary, .profileLinks { text-align: center; overflow-wrap: anywhere; }
+.profileWrapper { height: auto; min-height: 90dvh; max-height: none; }
+@media (max-width: 400px) { .imgBackground { --imgWidth: 220px; } }
